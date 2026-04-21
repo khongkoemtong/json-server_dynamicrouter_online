@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Productpage() {
     const [data, setdata] = useState([])
@@ -20,6 +21,7 @@ function Productpage() {
 
             {
                 data.map(pro => (
+                  <Link to={`/product/${pro.id}`}>
                     <div>
                         <div
                             class="bg-white border border-slate-200 shadow-sm w-full max-w-sm rounded-lg mx-auto mt-6 overflow-hidden dark:bg-neutral-800 dark:border-neutral-700">
@@ -38,6 +40,7 @@ function Productpage() {
                             </div>
                         </div>
                     </div>
+                  </Link>
                 ))
             }
 
