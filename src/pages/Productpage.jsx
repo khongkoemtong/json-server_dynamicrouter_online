@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Productpage() {
     const [data, setdata] = useState([])
+    const [search , setsearch] = useState("")
 
     useEffect(() => {
         const FetchAPi = async () => {
@@ -15,12 +16,33 @@ function Productpage() {
     }, [])
 
 
+    const search_data = data.filter(item=>{
+        return item.name.toLowerCase().includes(search.toLowerCase())
+    })
+
+
+
+    
+
+    
+
+
 
     return (
+        <div>
+
+           <div className='flex justify-center m-[30px]'>
+             <input type="text" onChange={(e)=>{setsearch(e.target.value)}}  className='bg-amber-300' />
+           </div>
+
+
         <div className='grid grid-cols-4 gap-3'>
 
+
+          
+
             {
-                data.map(pro => (
+                search_data.map(pro => (
                   <Link to={`/product/${pro.id}`}>
                     <div>
                         <div
@@ -48,6 +70,7 @@ function Productpage() {
 
 
 
+        </div>
         </div>
     )
 }

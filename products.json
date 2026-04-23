@@ -1,11 +1,11 @@
 {
   "product": [
     {"id":1,"name":"iPhone 15 Pro","price":999.99,"qty":50,"image":"https://i.pinimg.com/736x/ad/7c/c1/ad7cc1fa7ad14e8cd6ce1273265aa8e2.jpg","category":"Smartphone","brand":"Apple","rating":4.8,"isAvailable":true},
-    {"id":2,"name":"Samsung Galaxy S24","price":899.99,"qty":40,"image":"https://source.unsplash.com/400x400/?samsung-phone","category":"Smartphone","brand":"Samsung","rating":4.7,"isAvailable":true},
-    {"id":3,"name":"MacBook Pro M3","price":1999.99,"qty":20,"image":"https://source.unsplash.com/400x400/?macbook","category":"Laptop","brand":"Apple","rating":4.9,"isAvailable":true},
-    {"id":4,"name":"Dell XPS 13","price":1299.99,"qty":25,"image":"https://source.unsplash.com/400x400/?laptop-dell","category":"Laptop","brand":"Dell","rating":4.6,"isAvailable":true},
-    {"id":5,"name":"HP Spectre x360","price":1199.99,"qty":15,"image":"https://source.unsplash.com/400x400/?hp-laptop","category":"Laptop","brand":"HP","rating":4.5,"isAvailable":true},
-    {"id":6,"name":"iPad Pro","price":799.99,"qty":35,"image":"https://source.unsplash.com/400x400/?ipad","category":"Tablet","brand":"Apple","rating":4.7,"isAvailable":true},
+    {"id":2,"name":"Samsung Galaxy S24","price":899.99,"qty":40,"image":"https://i.pinimg.com/1200x/f8/25/5d/f8255d2789b73256729de90ce183e7d9.jpg","category":"Smartphone","brand":"Samsung","rating":4.7,"isAvailable":true},
+    {"id":3,"name":"MacBook Pro M3","price":1999.99,"qty":20,"image":"https://i.pinimg.com/1200x/68/47/50/684750924c4d71f59f680ae960474709.jpg","category":"Laptop","brand":"Apple","rating":4.9,"isAvailable":true},
+    {"id":4,"name":"Dell XPS 13","price":1299.99,"qty":25,"image":"https://i.pinimg.com/736x/6e/43/a7/6e43a7cbb2203fc92aa3ab0b4e5ac699.jpg","category":"Laptop","brand":"Dell","rating":4.6,"isAvailable":true},
+    {"id":5,"name":"HP Spectre x360","price":1199.99,"qty":15,"image":"https://i.pinimg.com/736x/15/b6/7e/15b67ead8590d28f6b97e4e95983f660.jpg","category":"Laptop","brand":"HP","rating":4.5,"isAvailable":true},
+    {"id":6,"name":"iPad Pro","price":799.99,"qty":35,"image":"https://i.pinimg.com/736x/7b/1b/57/7b1b57b0d7e32aa20a12ef6d86b295fc.jpg","category":"Tablet","brand":"Apple","rating":4.7,"isAvailable":true},
     {"id":7,"name":"Samsung Tab S9","price":699.99,"qty":30,"image":"https://source.unsplash.com/400x400/?tablet","category":"Tablet","brand":"Samsung","rating":4.6,"isAvailable":true},
     {"id":8,"name":"Sony WH-1000XM5","price":349.99,"qty":60,"image":"https://source.unsplash.com/400x400/?headphones","category":"Headphones","brand":"Sony","rating":4.8,"isAvailable":true},
     {"id":9,"name":"AirPods Pro","price":249.99,"qty":70,"image":"https://source.unsplash.com/400x400/?airpods","category":"Earbuds","brand":"Apple","rating":4.7,"isAvailable":true},
